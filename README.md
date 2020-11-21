@@ -1,2 +1,3 @@
 # Desain-Antarmuka
-Tugas mata kuliah desain antarmuka berbasis web dan android
+
+Tugas Desain Interface - Membuat tampilan antarmuka aplikasi yang kami beri nama INBARU yang studi kasusnya fokus pada inventaris barang
