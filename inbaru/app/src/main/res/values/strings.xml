@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">inbaru</string>
+
+    <string-array name="judulbuku">
+        <item>IPS</item>
+        <item>IPA</item>
+    </string-array>
+
+    <string-array name="jenisac">
+        <item>SHARP</item>
+        <item>LG</item>
+    </string-array>
+
+    <string-array name="jeniskipas">
+        <item>SEKAI</item>
+        <item>MIYAKO</item>
+    </string-array>
+
+    <string-array name="jenis">
+        <item>MEJA</item>
+        <item>KURSI</item>
+    </string-array>
+
+    <string-array name="jenispapan">
+        <item>HITAM</item>
+        <item>PUTIH</item>
+    </string-array>
+
+    <string-array name="date">
+        <item>01/12/2019</item>
+        <item>02/12/2019</item>
+        <item>03/12/2019</item>
+        <item>04/12/2019</item>
+        <item>05/12/2019</item>
+        <item>06/12/2019</item>
+        <item>07/12/2019</item>
+        <item>08/12/2019</item>
+        <item>09/12/2019</item>
+        <item>10/12/2019</item>
+        <item>11/12/2019</item>
+        <item>12/12/2019</item>
+        <item>13/12/2019</item>
+        <item>14/12/2019</item>
+        <item>15/12/2019</item>
+        <item>16/12/2019</item>
+        <item>17/12/2019</item>
+        <item>18/12/2019</item>
+        <item>19/12/2019</item>
+        <item>20/12/2019</item>
+        <item>21/12/2019</item>
+        <item>22/12/2019</item>
+        <item>23/12/2019</item>
+        <item>24/12/2019</item>
+        <item>25/12/2019</item>
+        <item>26/12/2019</item>
+        <item>27/12/2019</item>
+        <item>28/12/2019</item>
+        <item>29/12/2019</item>
+        <item>30/12/2019</item>
+        <item>31/12/2019</item>
+    </string-array>
+
+</resources>

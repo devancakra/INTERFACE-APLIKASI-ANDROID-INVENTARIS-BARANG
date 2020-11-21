@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".menu">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="338dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="10dp">
+
+        <ImageView
+            android:id="@+id/klikbuku"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/buku" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="140dp"
+            android:text="Buku"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/klikkipas"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/kipas" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="140dp"
+            android:text="Kipas"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/klikac"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="235dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/ac" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="140dp"
+            android:text="AC"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+
+        <ImageView
+            android:id="@+id/klikkursi"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="200dp"
+            android:src="@drawable/kursi" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="290dp"
+            android:text="Kursi"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/klikkom"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="137dp"
+            android:layout_marginTop="200dp"
+            android:src="@drawable/komputer" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="137dp"
+            android:layout_marginTop="290dp"
+            android:text="Komputer"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/klikpapan"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="200dp"
+            android:src="@drawable/papan" />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="258dp"
+            android:layout_marginTop="290dp"
+            android:text="Papan"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="#00BCD4">
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/user"/>
+        <TextView
+            android:id="@+id/selamat"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Selamat datang,Pegawai"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="9dp"/>
+        <ImageView
+            android:id="@+id/logout"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginLeft="-9dp"
+            android:src="@drawable/power"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnlaporan"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:background="@drawable/simpan"
+        android:text="LAPORAN"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="475dp"/>
+    <Button
+        android:id="@+id/btnapkcreator"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text="TENTANG KAMI"
+        android:background="@drawable/creator"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="645dp"/>
+    <ImageView
+        android:layout_width="1100dp"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="620dp"
+        android:background="#00BCD4"/>
+</RelativeLayout>

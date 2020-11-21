@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4">
+
+    <Button
+        android:id="@+id/btnkelasb"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="KELAS B"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnkelasa" />
+
+    <Button
+        android:id="@+id/btnkelasa"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="188dp"
+        android:background="@drawable/button"
+        android:text="KELAS A"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnkelasc"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/button"
+        android:text="KELAS C"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnkelasb" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
